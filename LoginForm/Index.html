@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<style>
+body{
+	background-image:url(blur.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	}
+form {
+   
+	width:500px;
+	height:0px auto;
+	margin: auto;
+	margin-top:130px;
+}
+
+input[type=text], input[type=password] {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 10px 90px;
+    display: inline-block;
+    border: 1px solid #A59EA5;
+    box-sizing: border-box;
+	background-color:#CCC;	
+	
+	
+}
+
+button {
+    background-color:#8D3463;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 90px;
+    border: none;
+    cursor: pointer;
+    width: 65%;
+	
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 25px 0;
+}
+
+img.avatar {
+    width: 25%;
+    border-radius: 50%;
+}
+
+
+
+span.psw {
+	font-size:12px;
+	margin-right:85px;
+    float: right;
+	margin-top:5px;
+	
+    
+}
+
+input[type=checkbox]{
+	margin-left:90px;
+		
+	}
+
+
+	
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+
+}
+</style>
+
+<body>
+<form action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="LoginAvatar.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+   
+    <input type="text" placeholder="Username" name="uname" required>
+
+    
+    <input type="password" placeholder="Password" name="psw" required>
+
+    <button type="submit">Login</button> <br />
+    <input type="checkbox" checked="checked"> Remember me
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+
+    
+    
+  </div>
+</form>
+</body>
+
+</html>
